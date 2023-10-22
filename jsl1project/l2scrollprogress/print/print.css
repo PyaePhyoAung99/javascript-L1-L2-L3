@@ -1,0 +1,31 @@
+body{
+   color: #000;
+}
+
+.print-btn{
+   display: none;
+}
+
+.pagebreak{
+   page-break-after: always;
+   font-size: 30px;
+   line-height: 50px;
+}
+
+.header{
+   position: static;
+
+   -webkit-print-color-adjust: exact;
+}
+
+.content{
+   -webkit-print-color-adjust: exact;
+   padding: 0 50px;
+   margin: 0 auto;
+}
+
+@page{
+   size: legal;
+
+   margin: 0;
+}
