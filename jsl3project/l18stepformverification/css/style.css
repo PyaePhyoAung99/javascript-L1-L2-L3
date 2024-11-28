@@ -99,3 +99,27 @@ input.invalid{
 #prevbtn{
    background-color: #bbb;
 }
+
+#result-container{
+   width: 90%;
+
+   display: none;
+}
+
+#result-container ul li{
+   list-style-type: none;
+
+   padding: 3px;
+}
+
+.submit-btn{
+   width: 100%;
+   color: #fff;
+   background-color: steelblue;
+   font-size: 20px;
+   border:  none;
+   cursor: pointer;
+
+   padding: 5px 0;
+   margin-bottom: 20px;
+}
